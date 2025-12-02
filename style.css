@@ -251,11 +251,11 @@ section li {
 }
 
 .info-content a {
-    font-weight: 600;
-    color: var(--linkedin-blue);
+    color: #4a5568;
 }
 
-.info-content a:hover {
+.info-content a:hover,
+.info-content a:focus {
     text-decoration: underline;
 }
 
@@ -420,4 +420,7 @@ footer {
     background: #ecf0f1;
     color: #7f8c8d;
     font-size: 0.9rem;
+}
+.muted-link {
+    font-weight: 400;
 }
