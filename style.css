@@ -144,6 +144,12 @@ section li {
     margin-bottom: 10px;
 }
 
+.doc-description {
+    margin: 4px 0 0;
+    font-size: 0.9rem;
+    color: #4a5568;
+}
+
 .venture-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
