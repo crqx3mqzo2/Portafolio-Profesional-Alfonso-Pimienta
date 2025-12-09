@@ -78,8 +78,9 @@ header nav {
     max-width: none;  /* Ocupa todo el ancho del header */
 }
 
-/* Nav fuera del header (body > nav) - ALINEADO */
-body > nav {
+/* Nav fuera del header (body > nav o dentro de .page-content) - ALINEADO */
+body > nav,
+.page-content > nav {
     max-width: 900px;
     margin: 20px auto 0 auto;  /* Centrado horizontalmente pero con max-width */
     padding: 0;
