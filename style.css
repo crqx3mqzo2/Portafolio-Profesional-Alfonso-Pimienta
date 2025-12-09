@@ -20,6 +20,14 @@ body {
     font-size: 15px;
     margin: 0;        /* Añade esto */
     padding: 0;       /* Añade esto */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content {
+    flex: 1;
+    width: 100%;
 }
 
 /* Header y Navegación integrados */
@@ -417,7 +425,7 @@ section li {
 footer {
     text-align: center;
     padding: 25px;
-    margin-top: 40px;
+    margin-top: auto;
     background: #ecf0f1;
     color: #7f8c8d;
     font-size: 0.9rem;
